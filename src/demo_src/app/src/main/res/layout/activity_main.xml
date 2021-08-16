@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--title -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/camera_display_btn"
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="wrap_content"
+                android:text="摄像头采集" />
+
+
+            <Button
+                android:id="@+id/screen_display_btn"
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="wrap_content"
+                android:text="屏幕采集" />
+
+
+
+<!--            <Spinner-->
+<!--                android:id="@+id/device_spinner"-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:entries="@array/device_list"-->
+<!--                />-->
+        </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

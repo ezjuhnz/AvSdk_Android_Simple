@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="device_list">
+        <item>摄像采集</item>
+        <item>屏幕采集</item>
+    </string-array>
+</resources>

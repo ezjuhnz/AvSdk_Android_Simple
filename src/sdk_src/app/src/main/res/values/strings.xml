@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">VideoEditor</string>
+    <string name="video">视频</string>
+    <string name="record">录制</string>
+    <string name="local_video_beauty">本地视频美颜</string>
+    <string name="audio_editor">音频处理</string>
+    <string name="video_connect">视频拼接</string>
+    <string name="sdk_test">sdk测试</string>
+    <string name="video_select">选择视频</string>
+    <string name="audio_select">选择音频</string>
+    <string name="pcm_2_audio">PCM转音频</string>
+    <string name="audio_mix">音频混合</string>
+    <string name="audio_mix_select_one">选择第一个音频</string>
+    <string name="video_connect_select_one">选择第一个视频</string>
+    <string name="audio_mix_select_two">选择第二个音频</string>
+    <string name="video_connect_select_two">选择第二个视频</string>
+    <string name="change_filter">左右滑动切换滤镜哟...</string>
+    <string name="confirm_to_editor_video">点击确定分离音频</string>
+    <string name="titlebar_search_hint">Search</string>
+    <string name="fps_select">帧率:</string>
+    <string name="resolution_select">分辨率:</string>
+    <string name="bitrate_select">码率:</string>
+
+    <string-array name="resolution_list">
+        <item>720 X 480</item>
+        <item>1280 X 720</item>
+        <item>1920 X 1080</item>
+        <item>2048 X 1080</item>
+    </string-array>
+
+    <string-array name="fps_list">
+        <item>10fps</item>
+        <item>15fps</item>
+        <item>20fps</item>
+        <item>25fps</item>
+        <item>30fps</item>
+        <item>35fps</item>
+    </string-array>
+
+    <string-array name="bitrate_list">
+        <item>1500kbps</item>
+        <item>2000kbps</item>
+        <item>2500kbps</item>
+        <item>3000kbps</item>
+        <item>3500kbps</item>
+        <item>4000kbps</item>
+        <item>5000kbps</item>
+        <item>6000kbps</item>
+        <item>7000kbps</item>
+        <item>8000kbps</item>
+    </string-array>
+</resources>
